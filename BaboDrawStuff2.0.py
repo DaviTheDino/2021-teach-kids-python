@@ -23,7 +23,8 @@ t.pendown()
 t.backward(375*2)
 t.penup()
 turnone = input("Which square Player1?")
-if turnone == "topright":
+if turnone == "topleft":
+    t.pendown()
     t.setx(-245)
     t.sety(230)
     t.write("X")
